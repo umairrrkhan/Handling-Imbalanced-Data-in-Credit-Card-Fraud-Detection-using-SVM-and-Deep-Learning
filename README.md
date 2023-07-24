@@ -1,10 +1,14 @@
 # Handling Imbalanced Data in Credit Card Fraud Detection using SVM and Deep Learning
 
-## Overview
+## Introduction
 
-This project applies ML models like SVM and Neural Networks for credit card fraud detection on highly imbalanced data. Resampling techniques like oversampling and SMOTE are used to handle the skewed class distribution.
+Credit card fraud detection is an important and challenging real-world problem that involves significant financial losses. Machine learning provides effective approaches for identifying fraudulent transactions. However, frauds occur rarely compared to legitimate transactions, creating highly imbalanced datasets. Standard algorithms struggle to detect the minority positive class of frauds.
 
-The goal is to effectively identify rare fraud cases from the imbalanced dataset.
+This project focuses on evaluating machine learning techniques for credit card fraud detection on imbalanced data. Models like logistic regression, SVM, random forest, and neural networks are tested. To handle the disproportionate class distribution
+
+The algorithms and resampling techniques are optimized to identify rare cases of fraud despite the skewed dataset precision-recall curve, and F1-score are utilized for evaluation. In-depth analysis provides insights into significant patterns and effective approaches.
+
+This project provides an extensive benchmark for applying machine learning to the critical and timely problem of fraud detection in imbalanced financial data. The techniques and findings will be broadly useful for related domains involving identification of rare classes.
 
 ## Data 
 
